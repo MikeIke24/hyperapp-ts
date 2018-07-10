@@ -1,9 +1,10 @@
 # hyperapp-demo
 
+### To Run App
 ```sh
-npm install
-npm run dev
-# Open localhost:8080 in browser
+yarn
+yarn run dev
+# Open localhost:3200 in browser
 ```
 
 Credit goes to [https://github.com/pocka/hyperapp-typescript-demo]
