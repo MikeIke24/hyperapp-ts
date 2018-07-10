@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "SET NODE_ENV=development & webpack-dev-server --config ./config/webpack/webpack.config.js --content-base src --hot --port 3200",
-    "compile": "SET NODE_ENV=production & webpack --config ./config/webpack/webpack.config.js",
-    "build": "npm run compile && cp src/index.html public/"
+    "compile": "rd public /s /q & SET NODE_ENV=production & webpack --config ./config/webpack/webpack.config.js public/bundle.js",
+    "build": "npm run compile && copy \"src\\index.html\" public"
   },
   "repository": {
     "type": "git",
