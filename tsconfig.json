@@ -1,22 +1,23 @@
 {
-	"compilerOptions": {
-		"lib": [
-			"dom",
-			"es5",
-			"es2015",
+  "compilerOptions": {
+    "outDir": "./compiled",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
       "es2015.promise",
       "es2016"
-		],
-		"jsx": "react",
-		"jsxFactory": "h",
-		"target": "es5",
-		"strict": true,
-		"module": "es2015",
-		"moduleResolution": "node",
-		"removeComments": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"allowSyntheticDefaultImports": true,
+    ],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
     "baseUrl": "."
   },
