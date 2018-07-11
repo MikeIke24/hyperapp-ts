@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "SET NODE_ENV=development & webpack-dev-server --config ./config/webpack/webpack.config.js --content-base src --hot --port 3200",
     "compile": "rd public /s /q & SET NODE_ENV=production & webpack --config ./config/webpack/webpack.config.js public/bundle.js",
-    "build": "npm run compile && copy \"src\\index.html\" public"
+    "build": "npm run compile && copy \"src\\index.html\" public && copy \"src\\style.css\" public"
   },
   "repository": {
     "type": "git",
